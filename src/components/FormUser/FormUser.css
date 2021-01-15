@@ -1,0 +1,17 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 650px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 30px;
+    line-height: 10px;
+}
+.formulario form{
+    width: 90%;
+}
+.crear{
+    margin-bottom: 10px;
+}

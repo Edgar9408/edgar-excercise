@@ -1,0 +1,44 @@
+.CardBody:hover{
+    transition: 0.2s all;
+    transform: translateY(-5px);
+}
+.row{
+    text-align: center;
+}
+.borrar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #E7E5E5;
+}
+.CardText{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.CardText-e{
+    color: black;
+}
+.CardBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-height: 230px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+a{
+    width: 100%;
+}
+.card-header{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.interaction {
+    transition: linear 0.5s;
+    text-decoration: none !important;
+}
